@@ -228,7 +228,7 @@ This project is intended for educational and learning purposes.
 **Sumit Kumar Singh**
 
 - GitHub: https://github.com/Sumit692
-- LinkedIn: *(Add your LinkedIn profile here)*
+- LinkedIn: https://www.linkedin.com/in/sumitkumarsingh24/
 
 ---
 
