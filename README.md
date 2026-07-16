@@ -182,9 +182,11 @@ http://127.0.0.1:5000
 
 # 📸 Screenshots
 
-<img width="1366" height="768" alt="Screenshot (6)" src="https://github.com/user-attachments/assets/7ca01f02-31b5-467b-b0f4-72152a6e2eb4" />
-<img width="1366" height="768" alt="Screenshot (7)" src="https://github.com/user-attachments/assets/3ddc4c23-4273-4c96-908d-f5b161cf53bb" />
-<img width="1366" height="768" alt="Screenshot (8)" src="https://github.com/user-attachments/assets/29d31ab9-f3c0-4df0-a69a-c6314892a93a" />
+<img width="1366" height="684" alt="Screenshot (6)" src="https://github.com/user-attachments/assets/43ec4d30-7279-4ea8-b117-4098b77eb132" />
+
+<img width="1366" height="683" alt="Screenshot (7)" src="https://github.com/user-attachments/assets/7c055a38-515f-4fd1-a187-4177511a6812" />
+
+<img width="1366" height="662" alt="Screenshot (8)" src="https://github.com/user-attachments/assets/681a0c52-ca91-4c4b-a1ea-4243947b2282" />
 
 
 ---
