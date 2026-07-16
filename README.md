@@ -1,148 +1,235 @@
-<h1 style="color:#ff6a00;">
-  VAANI – Where Every Book Finds a Voice
-</h1>
+# 🧠 VAANI AI – TextAssist
 
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.10+-blue?style=for-the-badge&logo=python" />
+  <img src="https://img.shields.io/badge/Flask-Web%20Framework-black?style=for-the-badge&logo=flask" />
+  <img src="https://img.shields.io/badge/Google%20Gemini-AI-green?style=for-the-badge&logo=google" />
+  <img src="https://img.shields.io/badge/OCR-Tesseract-orange?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Text%20To%20Speech-gTTS-red?style=for-the-badge" />
+</p>
 
+---
 
-VAANI is an AI-powered web application that transforms PDF documents into simplified study notes, generates audio summaries, and allows users to ask questions about the uploaded document.
+# 📖 About the Project
 
-It is designed with accessibility, voice control, and inclusive learning in mind.
+**VAANI AI – TextAssist** is an AI-powered accessibility and learning assistant designed to help users understand text extracted from PDF documents. It combines **Optical Character Recognition (OCR)** with **Google Gemini AI** to provide intelligent question answering and uses **Text-to-Speech (TTS)** to make information more accessible.
 
-🚀 Features
-📄 PDF Processing
+The application is designed for users who need a simple and interactive way to extract knowledge from documents instead of reading lengthy PDFs manually.
 
-Upload any PDF document
+---
 
-Extract original text
+# 🎯 Who is this Project Designed For?
 
-Generate simplified study notes
+VAANI AI – TextAssist is especially useful for:
 
-Multi-language support (English, Hindi, Kannada)
+- 🎓 Students preparing for exams from PDF notes
+- 👨‍🏫 Teachers creating learning material
+- 📚 Researchers reading long documents
+- 👨‍💻 Developers exploring AI-powered document assistants
+- ♿ People with visual impairments who benefit from text-to-speech
+- 📖 Anyone who wants to ask questions directly from PDF content instead of reading the entire document
 
-🎧 Audio Summary
+---
 
-Automatically generates an audio version of the summary
+# ✨ Features
 
-Built-in audio player
+- 📄 Upload PDF documents
+- 🔍 Extract text using OCR (Tesseract OCR)
+- 🤖 AI-powered question answering using Google Gemini
+- 🔊 Convert extracted text into speech
+- 🧠 Intelligent document understanding
+- 💬 Interactive question-answer interface
+- ⚡ Fast and lightweight Flask application
+- 🌐 Simple web interface
 
-💬 Document Q&A
+---
 
-Ask questions related to the uploaded document
+# 🛠️ Tech Stack
 
-Interactive chat interface
+### Backend
+- Python
+- Flask
 
-Context-based AI answers
+### AI
+- Google Gemini API
+- Google Generative AI SDK
 
-♿ Accessibility Features
+### OCR
+- Tesseract OCR
+- PyMuPDF (fitz)
+- Pillow (PIL)
 
-Dyslexia-friendly font mode (OpenDyslexic)
+### Text-to-Speech
+- Google Text-to-Speech (gTTS)
 
-Adjustable font size (A- / A+)
+### Frontend
+- HTML5
+- CSS3
+- JavaScript
 
-Background color customization
+---
 
-Clean and readable UI
+# 📂 Project Structure
 
-🎙 Voice Control
+```text
+VAANI-AI-TEXTASSIST/
+│
+├── templates/
+│   ├── index.html
+│   └── qa.html
+│
+├── uploads/
+├── outputs/
+│
+├── app.py
+├── requirements.txt
+├── README.md
+├── .gitignore
+└── .env (Not included)
+```
 
-Scroll up / down
+---
 
-Focus next / previous element
+# ⚙️ Installation
 
-Select elements
+### Clone the repository
 
-Read aloud content
+```bash
+git clone https://github.com/Sumit692/Vaani-AI-TextAssist.git
+```
 
-Stop voice mode
+Go into the project folder
 
-🎨 Theme Modes
+```bash
+cd Vaani-AI-TextAssist
+```
 
-Calm
+Create a virtual environment
 
-Sunset
+```bash
+python -m venv venv
+```
 
-Night
+Activate the environment
 
-🖥 Project Structure
-├── index.html      # Main application page (PDF upload + results)
-├── qa.html         # Q&A chat interface
-├── /outputs        # Generated audio files (server side)
-└── README.md
+Windows
 
-⚙️ How It Works
+```bash
+venv\Scripts\activate
+```
 
-User uploads a PDF.
+Linux / macOS
 
-Backend processes the file.
+```bash
+source venv/bin/activate
+```
 
-The app:
+Install dependencies
 
-Extracts original text
+```bash
+pip install -r requirements.txt
+```
 
-Generates simplified notes
+---
 
-Creates an audio summary
+# 🔑 Environment Variables
 
-User can:
+Create a `.env` file in the project root.
 
-Switch between original & simplified text
+```env
+GEMINI_API_KEY=YOUR_GEMINI_API_KEY
+```
 
-Adjust accessibility settings
+---
 
-Ask questions about the document
+# ▶️ Run the Application
 
-🛠 Technologies Used
-
-HTML5
-
-CSS3 (Glassmorphism UI + Animations)
-
-JavaScript (Vanilla JS)
-
-Web Speech API (Voice recognition & synthesis)
-
-Fetch API (Async communication)
-
-Google Fonts (Poppins)
-
-OpenDyslexic Font
-
-<img width="1345" height="598" alt="image" src="https://github.com/user-attachments/assets/80537c5e-193d-4eca-b944-55263de0540c" />
-
-🔧 Setup Instructions (Basic)
-
-Clone the repository:
-
-git clone https://github.com/your-username/vaani.git
-
-
-Add backend server (Flask / Node / etc.)
-
-Run your backend server:
-
+```bash
 python app.py
+```
 
+Open your browser and visit
 
-Open in browser:
+```
+http://127.0.0.1:5000
+```
 
-http://localhost:5000
+---
 
-🌟 Future Improvements
+# 🚀 How It Works
 
-More language support
+1. Upload a PDF document.
+2. OCR extracts text from the document.
+3. Extracted content is processed.
+4. Ask questions about the document.
+5. Google Gemini generates intelligent responses.
+6. The application can also convert text into speech for improved accessibility.
 
-PDF highlighting
+---
 
-Downloadable notes
+# 📸 Screenshots
 
-Voice-based Q&A
+> Add screenshots of:
+- Home Page
+- PDF Upload
+- Question Answer Page
+- Generated Answers
 
-User login system
+---
 
-Cloud deployment
+# 🔮 Future Improvements
 
-👨‍💻 Author
+- 📁 Support multiple file formats
+- 🌍 Multilingual translation
+- 📝 Automatic summarization
+- 🎤 Voice-based questioning
+- 📚 Document history
+- 👥 User authentication
+- ☁️ Cloud deployment
+- 📱 Responsive mobile interface
 
-Sumit Kumar Singh
+---
 
-If you like this project, give it a ⭐ on GitHub!
+# 🤝 Contributing
+
+Contributions are welcome.
+
+1. Fork the repository
+2. Create a feature branch
+
+```bash
+git checkout -b feature-name
+```
+
+3. Commit your changes
+
+```bash
+git commit -m "Added new feature"
+```
+
+4. Push to GitHub
+
+```bash
+git push origin feature-name
+```
+
+5. Open a Pull Request
+
+---
+
+# 📄 License
+
+This project is intended for educational and learning purposes.
+
+---
+
+# 👨‍💻 Author
+
+**Sumit Kumar Singh**
+
+- GitHub: https://github.com/Sumit692
+- LinkedIn: *(Add your LinkedIn profile here)*
+
+---
+
+⭐ If you found this project useful, consider giving it a **Star** on GitHub!
