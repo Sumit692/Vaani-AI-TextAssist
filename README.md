@@ -182,11 +182,10 @@ http://127.0.0.1:5000
 
 # 📸 Screenshots
 
-> Add screenshots of:
-- Home Page
-- PDF Upload
-- Question Answer Page
-- Generated Answers
+<img width="1366" height="768" alt="Screenshot (6)" src="https://github.com/user-attachments/assets/7ca01f02-31b5-467b-b0f4-72152a6e2eb4" />
+<img width="1366" height="768" alt="Screenshot (7)" src="https://github.com/user-attachments/assets/3ddc4c23-4273-4c96-908d-f5b161cf53bb" />
+<img width="1366" height="768" alt="Screenshot (8)" src="https://github.com/user-attachments/assets/29d31ab9-f3c0-4df0-a69a-c6314892a93a" />
+
 
 ---
 
