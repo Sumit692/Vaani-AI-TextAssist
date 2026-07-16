@@ -1,11 +1,24 @@
 # 🧠 VAANI AI – TextAssist
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Python-3.10+-blue?style=for-the-badge&logo=python" />
-  <img src="https://img.shields.io/badge/Flask-Web%20Framework-black?style=for-the-badge&logo=flask" />
-  <img src="https://img.shields.io/badge/Google%20Gemini-AI-green?style=for-the-badge&logo=google" />
-  <img src="https://img.shields.io/badge/OCR-Tesseract-orange?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Text%20To%20Speech-gTTS-red?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Python-3.10+-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/Flask-3.1-black?style=for-the-badge&logo=flask" />
+  <img src="https://img.shields.io/badge/Google-Gemini_AI-4285F4?style=for-the-badge&logo=google" />
+  <img src="https://img.shields.io/badge/OCR-Tesseract-5C2D91?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Text_to_Speech-gTTS-FF6F00?style=for-the-badge" />
+</p>
+
+<p align="center">
+An AI-powered document assistant that extracts text from PDF files, simplifies complex content using Google Gemini, answers questions based on uploaded documents, and converts text into speech for improved accessibility.
+</p>
+
+<p align="center">
+
+## 🌐 Live Demo
+
+🚀 **Try the application here:**  
+**https://vaani-ai-textassist-1.onrender.com/**
+
 </p>
 
 ---
