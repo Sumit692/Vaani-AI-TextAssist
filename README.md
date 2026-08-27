@@ -199,7 +199,6 @@ http://127.0.0.1:5000
 - 🎤 Voice-based questioning
 - 📚 Document history
 - 👥 User authentication
-- ☁️ Cloud deployment
 - 📱 Responsive mobile interface
 
 ---
